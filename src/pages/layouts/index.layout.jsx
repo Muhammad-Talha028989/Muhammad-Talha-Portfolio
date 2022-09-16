@@ -9,7 +9,7 @@ import Project from "./../../components/Project";
 import Contact from "./../../components/Contact";
 import Footer from "./../../components/Footer";
 
-const indexLayout = () => {
+const IndexLayout = () => {
   return (
     <>
       <Navbar />
@@ -25,4 +25,4 @@ const indexLayout = () => {
   );
 };
 
-export default indexLayout;
+export default IndexLayout;
