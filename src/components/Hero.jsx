@@ -3,7 +3,13 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className={``}>Hero</div>
+      <section
+        id={"home"}
+        className={`min-h-screen flex py-10 
+      md:flex-row flex-col items-center`}
+      >
+        Hero
+      </section>
     </>
   );
 };
