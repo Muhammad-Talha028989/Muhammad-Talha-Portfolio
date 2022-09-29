@@ -32,8 +32,8 @@ const Navbar = () => {
         justify-between"
         >
           <div className="mx-7">
-            <h4 className="text-4xl uppercase font-bold">
-              M<span className="text-teal-600">T</span>
+            <h4 className="text-4xl uppercase font-bold text-slate-600">
+              M<span className="text-cyan-600">T</span>
             </h4>
           </div>
           <div
