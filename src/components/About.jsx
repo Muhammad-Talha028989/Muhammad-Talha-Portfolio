@@ -11,9 +11,9 @@ const About = () => {
         </h3>
         <p className="text-gray-400 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
-          <div className="">
+          <div className="p-2">
             <div className="text-slate-600 my-3">
-              <p className="text-justify">
+              <p className="text-justify leading-10 sm:w-11/12 mx-auto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eveniet, quisquam quibusdam! Et nihil voluptatem quibusdam quod
                 ratione, voluptatum iure totam minima ducimus eligendi ratione,
@@ -24,10 +24,12 @@ const About = () => {
               <div className="flex mt-10 items-center gap-7">
                 {infoAbout.map((content) => (
                   <div className="" key={content.text}>
-                    <h3 className="md:text-4xl text-2xl font-semibold">
+                    <h3 className="md:text-4xl text-2xl font-semibold text-slate-700">
                       {content.count} +
                     </h3>
-                    <span className="">{content.text}</span>
+                    <span className="text-lg text-cyan-600 md:text-base">
+                      {content.text}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -39,7 +41,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex-1 flex justify-center items-center">
-            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm ">
+            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm">
               <img
                 src={AboutImage}
                 alt="About"
