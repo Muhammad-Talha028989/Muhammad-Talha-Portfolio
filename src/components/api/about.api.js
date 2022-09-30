@@ -1,11 +1,11 @@
 export const infoAbout = [
   {
     text: "Years experience",
-    count: 04,
+    count: 4,
   },
   {
     text: "Completed Projects",
-    count: 05,
+    count: 5,
   },
   {
     text: "Companies Work",

@@ -1,4 +1,6 @@
 import React from "react";
+import { infoAbout } from "./api/about.api";
+import AboutImage from "../assets/images/Hero_image.png";
 
 const About = () => {
   return (
@@ -19,12 +21,30 @@ const About = () => {
                 voluptatum iure totam minima ducimus eligendi praesentium aut
                 sunt, voluptates sed quos excepturi.
               </p>
-              <div className="">
-                <div className="">
-                  <h3 className="">04+</h3>
-                  {setTimeout(() => {}, 1000)}
-                </div>
+              <div className="flex mt-10 items-center gap-7">
+                {infoAbout.map((content) => (
+                  <div className="" key={content.text}>
+                    <h3 className="md:text-4xl text-2xl font-semibold">
+                      {content.count} +
+                    </h3>
+                    <span className="">{content.text}</span>
+                  </div>
+                ))}
               </div>
+              <br />
+              <br />
+              <a href="" download>
+                <button className="btn-primary">Download CV</button>
+              </a>
+            </div>
+          </div>
+          <div className="flex-1 flex justify-center items-center">
+            <div className="lg:w-96 h-full relative sm:w-10/12 w-11/12 max-w-sm ">
+              <img
+                src={AboutImage}
+                alt="About"
+                className="w-full-object-cover bg-cyan-600 ml-4 rounded-lg"
+              />
             </div>
           </div>
         </div>
