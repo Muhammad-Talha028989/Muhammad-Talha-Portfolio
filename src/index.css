@@ -18,6 +18,18 @@ html {
 .swiper-pagination-bullet {
   @apply bg-white;
 }
-.setSwiperSlideMargin{
-  @apply mr-0 
+.setSwiperSlideMargin {
+  @apply mr-0;
+}
+
+input,
+textarea {
+  @apply bg-gray-700 outline-none rounded-lg p-3;
+}
+
+::placeholder {
+  @apply text-lg;
+}
+::selection {
+  @apply bg-cyan-600;
 }
