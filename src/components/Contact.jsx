@@ -11,7 +11,7 @@ const Contact = () => {
         <p className="text-gray-600 mt-3 text-lg">Get in touch</p>
 
         <div
-          className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 p-6 rounded-lg mx-auto
+          className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto
         "
         >
           <form action="" className="flex flex-col flex-1 gap-5">
