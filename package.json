@@ -1,6 +1,11 @@
 {
   "name": "my-portfolio",
   "packageManager": "yarn@3.2.3",
+  "author": {
+    "email": "miansonu776932@gmail.com",
+    "name": "Muhammad Talha",
+    "url": "https://www.linkedin.com/in/muhammad-talha-a45366205/"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
