@@ -24,7 +24,7 @@ const Navbar = () => {
       w-full
       left-0
       top-0
-      z-[999] ${sticky ? "md:bg-white/60 text-gray-900" : "text-white"}`}
+      z-[999] ${sticky ? "md:bg-white/100 text-gray-900" : "text-white"}`}
       >
         <div
           className="flex
