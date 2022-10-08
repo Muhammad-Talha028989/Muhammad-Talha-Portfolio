@@ -14,7 +14,8 @@ const Hero = () => {
           <img
             src={HeroImage}
             alt="HeroImgage"
-            className={`md:w-11/12 h-full object-cover rounded-full`}
+            // className={`md:w-11/12 h-full object-cover rounded-full`}
+            className={` w-[40rem] h-full -object-cover  ml-4 rounded-full`}
           />
         </div>
         <div className="flex-1">
